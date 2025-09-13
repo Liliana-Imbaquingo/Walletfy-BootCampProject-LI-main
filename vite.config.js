@@ -12,4 +12,7 @@ export default defineConfig({
     viteReact(),
     tailwindcss(),
   ],
+  build: {
+    chunkSizeWarningLimit: 1000, // en kB
+  },
 })
