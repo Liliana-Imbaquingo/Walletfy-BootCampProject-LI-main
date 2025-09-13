@@ -1,0 +1,94 @@
+{
+    "app": {
+        "name": "Walletfy",
+        "version": "1.0.0",
+        "status": "operational"
+    },
+    "wallet": {
+        "balance_inicial": 100.0,
+        "moneda": "USD"
+    },
+    "months": [
+        {
+        "name": "August",
+        "month": 8,
+        "year": 2025,
+        "events": [
+            {
+            "id": "550e8400-e29b-41d4-a716-446655440001",
+            "name": "Salary",
+            "description": "Monthly salary payment",
+            "amount": 500.0,
+            "date": "2025-08-01",
+            "type": "Income"
+            },
+            {
+            "id": "550e8400-e29b-41d4-a716-446655440002",
+            "name": "Supermarket",
+            "description": "Groceries purchase",
+            "amount": 120.0,
+            "date": "2025-08-05",
+            "type": "Expense"
+            }
+        ],
+        "incomes": 500.0,
+        "expenses": 120.0,
+        "monthly": 380.0,
+        "global": 480.0
+        },
+        {
+        "name": "September",
+        "month": 9,
+        "year": 2025,
+        "events": [
+            {
+            "id": "550e8400-e29b-41d4-a716-446655440003",
+            "name": "Restaurant",
+            "description": "Dinner with friends",
+            "amount": 80.0,
+            "date": "2025-09-03",
+            "type": "Expense"
+            },
+            {
+            "id": "550e8400-e29b-41d4-a716-446655440004",
+            "name": "Freelance",
+            "description": "Freelance project payment",
+            "amount": 300.0,
+            "date": "2025-09-10",
+            "type": "Income"
+            }
+        ],
+        "incomes": 300.0,
+        "expenses": 80.0,
+        "monthly": 220.0,
+        "global": 700.0
+        },
+        {
+        "name": "October",
+        "month": 10,
+        "year": 2025,
+        "events": [
+            {
+            "id": "550e8400-e29b-41d4-a716-446655440005",
+            "name": "Clothes",
+            "description": "Jacket purchase",
+            "amount": 150.0,
+            "date": "2025-10-02",
+            "type": "Expense"
+            },
+            {
+            "id": "550e8400-e29b-41d4-a716-446655440006",
+            "name": "Bonus",
+            "description": "Quarterly bonus",
+            "amount": 200.0,
+            "date": "2025-10-15",
+            "type": "Income"
+            }
+        ],
+        "incomes": 200.0,
+        "expenses": 150.0,
+        "monthly": 50.0,
+        "global": 750.0
+        }
+    ]
+}
